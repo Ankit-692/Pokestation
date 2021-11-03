@@ -226,7 +226,7 @@ footer a {
 }
 
 @media only screen and (max-width: 1080px) {
-
+    
   .ball-2 {
     width: 135px;
     height: 135px;
@@ -243,7 +243,7 @@ footer a {
   }
 
   .types img {
-    margin: 8px 18px 18px 18px;
+    margin: 6px 12px 12px 12px;
   }
 
   header .search-icon img {
@@ -261,6 +261,7 @@ footer a {
   .stats{
     min-width: 75%;
   }
+  
 }
 
 .hide {
@@ -292,7 +293,7 @@ footer a {
 .pokemon-list img {
   width: 160px;
   height: 180px;
-  margin: 5px;
+  /* margin: 3px; */
   cursor: pointer;
 }
 
@@ -419,16 +420,16 @@ header .search-icon img{
 .pic-page img {
   margin:10px;
   cursor: pointer;
+  margin-right: 40px;
 }
-
 
 
 }
 
 .pic-page img {
   background: white;
-  width: 180px;
-  height: 200px;
+  width: 160px;
+  height: 180px;
   padding: 8px;
   border-radius: 15px;
   box-shadow: 1px 1px 8px black;
