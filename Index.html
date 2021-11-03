@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="On PokeStation find a suitable pokemon for a battle. Make your perfect team after Knowing which type of pokemon is stronger thant the other">
+  <meta name="keywords" content="Pokemon, Type, Pikachu, Charizard, Strong, Weak, agianst">
+  <title>PokeStation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&family=Rubik:ital@1&display=swap" rel="stylesheet">
+  <body>
+    <div class="spinner">
+    <div class="back"></div>
+    <div class="loader"></div>
+  </div>
+    <header>
+      <div class="bicon">
+          <img src="ball.png">
+      </div>
+      <div class="title">
+        <h1>PókeStation</h1>
+      </div>
+      <div class="search-icon hide">
+        <img src="search.png">
+      </div>
+      <a href="https://form.123formbuilder.com/4982743/my-form"><img border="0" src=logo/cs.png></a>
+    </header>
+
+    <div class="home-page">
+      <div class="text">
+        <p>
+          Confused! which type is Strongest against which and what to choose before any battle.Then you are in right place:
+        </p>
+        <form class="type-bar">
+          <input type="text" class="bar-box" placeholder="search by name" maxlength="30" >
+          <input type="button" class="submit" value="search">
+        </form>
+        <h1>or</h1>
+        <h1>Choose Type:</h1>
+      </div>
+      <img src="bb.png" class="ball-1">
+      <img src="b.png" class="ball-2">
+
+      <div class="types">
+        <img src="logo/bug.png">
+        <img src="logo/dark.png">
+        <img src="logo/dragon.png">
+        <img src="logo/electric.png">
+        <img src="logo/fairy.png">
+        <img src="logo/fighting.png">
+        <img src="logo/fire.png">
+        <img src="logo/flying.png">
+        <img src="logo/ghost.png">
+        <img src="logo/grass.png">
+        <img src="logo/ground.png">
+        <img src="logo/ice.png">
+        <img src="logo/normal.png">
+        <img src="logo/poison.png">
+        <img src="logo/psychic.png">
+        <img src="logo/rock.png">
+        <img src="logo/steel.png">
+        <img src="logo/water.png">
+      </div>
+    </div>
+
+      <div class="result-page hide">
+        <img src="bb.png" class="ball-1">
+        <img src="b.png" class="ball-2">
+        <div class="resHead">
+
+       <!--
+        <div class="type-banner">
+          <img src="logo/water.png">
+        </div>
+        <p>
+          Total water type pokemon <br><br><span class="num">82</span>
+        </p>-->
+        </div>
+        <div class="pokemon-list">
+          <div class="strong-against">
+            <h1> STRONG AGAINST </h1>
+            <div class="poks stg">
+             <!-- <img src="logo/rock.png">
+              <img src="logo/rock.png">
+              <img src="logo/ice.png">-->
+            </div>
+          </div>
+          <div class="weak-against">
+           <h1> WEAK AGAINST</h1>
+           <div class="poks wek">
+              <!--<img src="logo/rock.png">
+              <img src="logo/rock.png">-->
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="pokspic">
+  <div class="ehead">
+  </div>
+  <img src="bb.png" class="ball-1">
+  <img src="b.png" class="ball-2">
+  <div class="pic-page">
+    <!--<figure>
+    <img src="https://img.pokemondb.net/artwork/large/charmander.jpg">
+    <figcaption>CHARMANDER</figcaption>
+    </figure>-->
+  </div>
+</div>
+<div class="pok-det hide">
+  <span class="det-icon">
+  <!--<img src="https://img.pokemondb.net/artwork/large/charmander.jpg">
+      <h1> Charmander </h1>-->
+  </span>
+  <div class="details">
+  <h1 class="h1">Type : <span class="dName"></span></h1>
+   <div class="wh">
+
+   </div>
+  <div class="stats">
+    <h1>HP</h1><div><div id="hp"></div></div>
+    <h1>Attack</h1><div><div id="attack"></div></div>
+    <h1>Defense</h1><div><div id="defense"></div></div>
+    <h1>Special-attack</h1><div><div id="special-attack"></div></div>
+    <h1>Special-Defense</h1><div><div id="special-defense"></div></div>
+    <h1>Speed</h1><div><div id="speed"></div></div>
+  </div>
+</div>
+  <div class="pokemon-list">
+          <div class="strong-against">
+            <h1> STRONG AGAINST* </h1>
+            <div class="poks strong stg">
+             <!-- <img src="logo/rock.png">
+              <img src="logo/rock.png">
+              <img src="logo/ice.png">-->
+            </div>
+          </div>
+          <div class="weak-against">
+           <h1> WEAK AGAINST*</h1>
+           <div class="poks weak wek">
+              <!--<img src="logo/rock.png">
+              <img src="logo/rock.png">-->
+            </div>
+          </div>
+        </div>
+</div>
+
+    <footer class="footer">
+      <p>
+        &copy; powered by pokeapi</P>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    <script type="text/javascript" src="search.js"></script>
+  </body>
+</html>
